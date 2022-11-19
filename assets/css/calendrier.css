@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+body{
+    background-color:blanchedalmond;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, .btn-link{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1em;
+}
+/* Tableau start */
+
+.list-inline {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+thead{
+    font-size: bold;
+    text-align: center;
+}
+
+td{
+    height: 100px;
+    text-align: right;
+}
+
+tbody{
+    background-color: whitesmoke;
+}
+
+td:nth-of-type(6), td:nth-of-type(7) {
+    color: indianred;
+    font-weight: bold;
+}
+
+/* Tableau end */
